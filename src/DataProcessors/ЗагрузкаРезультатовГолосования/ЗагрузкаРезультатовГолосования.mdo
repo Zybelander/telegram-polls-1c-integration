@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="908bb2ec-bb75-46c0-bef6-30c2dda8a7eb">
+  <producedTypes>
+    <objectType typeId="f7db44cd-2f9c-4ea7-bf07-490536482929" valueTypeId="32a74573-642b-47a3-bd3e-5d1ef99055da"/>
+    <managerType typeId="2545996a-f84b-4161-9195-a5779e86e755" valueTypeId="705d9537-f686-4937-828c-985b74fe23c5"/>
+  </producedTypes>
+  <name>ЗагрузкаРезультатовГолосования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка результатов голосования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаРезультатовГолосования.Form.Форма</defaultForm>
+  <forms uuid="ecc72f9a-d960-425e-bcd7-591b9f0038c2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

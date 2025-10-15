@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c43ec8ab-29b4-48c3-a369-2cde893130d1">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5e91b93e-c2a7-43ad-ac9b-2d6e9d51782e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c0025f6f-9fc2-450e-ab8b-abf42de68031"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4e27f54d-49bf-42be-b7f3-8eeff931d6d1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d46b3e01-a196-4d28-821a-89f3c185bc1e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e6819c07-6cd1-477b-940e-f586a38a3071"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7288c29f-bcd2-4146-98ad-7daa5aeedd7d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1c24401e-27e8-45e4-a4d7-cadef8bc747a"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="a59296ef-0918-43f8-a2ab-99b0c1f077d5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УстановкаРасписания</subsystems>
+  <subsystems>Subsystem.ОпросТГ</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <commonModules>CommonModule.Действие</commonModules>
+  <commonModules>CommonModule.Инструменты</commonModules>
+  <commonModules>CommonModule.Серверный</commonModules>
+  <commonModules>CommonModule.Клиентский</commonModules>
+  <catalogs>Catalog.УчастникиОпросаTEST</catalogs>
+  <catalogs>Catalog.РазрезДня</catalogs>
+  <documents>Document.УстановкаИмениПользователя</documents>
+  <documents>Document.УстановкаРасписанияTEST</documents>
+  <documents>Document.РАСПИСАНИЕ_Записавшиеся_TEST</documents>
+  <enums>Enum.СтатусОпроса</enums>
+  <dataProcessors>DataProcessor.ЗагрузкаРезультатовГолосования</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаОпросаСРасписаниемTEST</dataProcessors>
+  <informationRegisters>InformationRegister.ИмяПользователяИID_В_TG</informationRegisters>
+  <informationRegisters>InformationRegister.ПланировкаРасписанияTEST</informationRegisters>
+  <informationRegisters>InformationRegister.IDОпроса</informationRegisters>
+</mdclass:Configuration>

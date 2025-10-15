@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21036a1f-7603-4dd1-a40b-9e6d782b8d7d">
+  <producedTypes>
+    <objectType typeId="393b936a-7e85-463a-bd66-627cdaf5f770" valueTypeId="166997cf-71d0-4e0b-b87c-5294a3975017"/>
+    <refType typeId="ccac701c-fb6a-4f14-84da-c19fcd65c6cb" valueTypeId="4c2eddb7-d372-41e9-9e1a-9181255917db"/>
+    <selectionType typeId="ce4a9b7a-92ff-44b5-a230-45da6511d0df" valueTypeId="5ebf97e8-dfcd-4fa8-a9dc-974eb4a28932"/>
+    <listType typeId="188afe03-7985-429b-92fa-61664ea5dabc" valueTypeId="0d5ba00b-8cb8-4ed9-b499-23b636b66796"/>
+    <managerType typeId="a51e4b86-52a7-4210-be41-4288298969e5" valueTypeId="fac7bb9f-a5ba-41e3-99f0-d063135d2700"/>
+  </producedTypes>
+  <name>РАСПИСАНИЕ_Записавшиеся_TEST</name>
+  <synonym>
+    <key>ru</key>
+    <value>РАСПИСАНИЕ_Записавшиеся_TEST</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РАСПИСАНИЕ_Записавшиеся_TEST.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>10</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultListForm>Document.РАСПИСАНИЕ_Записавшиеся_TEST.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="cf5267c0-44c0-47de-a65d-534f3ba1a755">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="520a2e38-82d5-4a1f-a703-c0419dcd6704">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1c7ee9e6-c9f0-4dd6-9ff3-1976da55a90b">
+    <producedTypes>
+      <objectType typeId="c85066f3-bccd-437f-8803-9b36bb8d160a" valueTypeId="6d322661-9d41-474e-b785-6292df9cded6"/>
+      <rowType typeId="cbb8cf81-9506-44f4-93d6-ffc39e0e123e" valueTypeId="8ec592e5-84fe-48c4-8802-81e29c31c0be"/>
+    </producedTypes>
+    <name>СписокПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пользователей</value>
+    </synonym>
+    <attributes uuid="3773799f-6f40-4138-a1cb-31c4bfbf08ab">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчастникиОпросаTEST</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

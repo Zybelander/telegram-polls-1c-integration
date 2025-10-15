@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9982e4d-b79d-46cb-ac10-ded4e3896116">
+  <producedTypes>
+    <selectionType typeId="d9f96a31-ac1c-4eea-a43c-fa3177f0c22d" valueTypeId="25437c4d-3a03-46ea-985e-7c31bc7967a6"/>
+    <listType typeId="de99821d-ca92-4850-a97a-e5ea1682f0a1" valueTypeId="d4de3671-9ec1-4482-ac1e-b50b452af20f"/>
+    <managerType typeId="d5214099-5574-4bb4-88a7-2e7b9eee28ee" valueTypeId="a07d1730-c463-4165-8816-1228a78a5bbb"/>
+    <recordSetType typeId="2a4fff8a-0f7e-404a-8c49-3fd9965723b3" valueTypeId="59207b6a-c096-4745-81c5-90d877a4d12d"/>
+    <recordKeyType typeId="3783f809-5a43-416f-92c7-991b74a26a6d" valueTypeId="d70b4fcf-9cbd-4d5e-81d2-ac9b1fcc4d83"/>
+    <recordType typeId="75667142-a95e-4f6e-92ee-85dea4cc586b" valueTypeId="5e812cfc-1097-4184-a9d1-158f056304df"/>
+    <recordManagerType typeId="eb2b3ef9-b961-4a34-b892-1d8260857f14" valueTypeId="f6ef5158-9d17-4963-a48d-881bddbc68fc"/>
+  </producedTypes>
+  <name>IDОпроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>IDОпроса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7d701bb3-a40d-4b01-8984-07b55029cdfd">
+    <name>IDОпроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDОпроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6906878a-9e80-4136-b139-5194ec533266">
+    <name>IDСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>IDСообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3ec7fa7d-558a-4408-89d6-9a8091a8182e">
+    <name>ДатаСозданияОпроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания опроса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3e385cf7-cc2d-48de-b8f1-90e979b81ae7">
+    <name>ДокументУстановкиРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ установки расписания</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.УстановкаРасписанияTEST</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

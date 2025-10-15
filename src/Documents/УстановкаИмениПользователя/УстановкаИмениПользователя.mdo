@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85b5a983-7edb-4e7e-a879-aae6187cf64e">
+  <producedTypes>
+    <objectType typeId="ec8a100d-23b1-4a5e-8f11-e170900229f7" valueTypeId="357b7b39-8b28-47ed-a73b-cf0476c14446"/>
+    <refType typeId="a0e8f86f-717e-4be1-8d2f-45175ec806fd" valueTypeId="6a076b29-af79-43c8-91af-de57d087422f"/>
+    <selectionType typeId="fdf439ec-f6f1-4102-81f1-286f37eec8f6" valueTypeId="4aada48e-2b03-46be-9a87-1e422ef4a238"/>
+    <listType typeId="6579db98-f775-41fc-b281-a2b12c924481" valueTypeId="399874be-0852-4656-9cc0-350021405f96"/>
+    <managerType typeId="992b99d2-1a3d-46d4-a014-6a15158e5936" valueTypeId="63ce2a6a-cadd-489c-8102-654d1cab274b"/>
+  </producedTypes>
+  <name>УстановкаИмениПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка имени пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаИмениПользователя.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаИмениПользователя.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ИмяПользователяИID_В_TG</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="82c66ae6-4217-432f-bb89-0814c5961a47">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="51381fdc-5f35-446d-9b9a-63f650723785">
+    <producedTypes>
+      <objectType typeId="91da21c6-afd0-48f3-8ea1-7caf6ccf3220" valueTypeId="dcdcb199-e934-40e0-97b3-996a1d932eea"/>
+      <rowType typeId="d87761a6-f243-43f3-852f-2c814cea7de1" valueTypeId="f6bb8f89-4fb6-4706-8a90-f030d410946a"/>
+    </producedTypes>
+    <name>СписокПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список пользователей</value>
+    </synonym>
+    <attributes uuid="f2ee50e4-0359-4ed6-8605-2f1036f3cd62">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УчастникиОпросаTEST</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f86e2994-7eca-4838-902b-a7992256e378">
+      <name>ИмяПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c762c472-2bfd-4e3b-b2fe-43254173b241">
+      <name>IDПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDПользователя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

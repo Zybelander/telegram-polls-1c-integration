@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b0b1011-abc0-449c-b173-6c368167055c">
+  <producedTypes>
+    <objectType typeId="a1cd793b-5796-4a0b-86d4-7abe82223093" valueTypeId="2fd5cf0f-1060-4196-b56a-c46012a219b5"/>
+    <refType typeId="23963ec6-a6b1-4fae-a431-673fb428c64f" valueTypeId="27ad24e4-0256-4ec1-a7a7-d6b9ff59f7dd"/>
+    <selectionType typeId="afdf1e22-7c83-4bb6-b17c-2742a551352e" valueTypeId="67440a29-3cfb-4ddf-8452-96102b0f371a"/>
+    <listType typeId="877d94aa-ee57-4957-8432-aec5b24b427a" valueTypeId="a5b96482-7bf4-4453-b5ca-49f406e277c1"/>
+    <managerType typeId="9af9c67b-97b7-46a0-aa79-1abbd50393aa" valueTypeId="60708d15-6f2f-4e41-a9a0-da92a439d7c0"/>
+  </producedTypes>
+  <name>УчастникиОпросаTEST</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участники опроса TEST</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчастникиОпросаTEST.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.УчастникиОпросаTEST.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

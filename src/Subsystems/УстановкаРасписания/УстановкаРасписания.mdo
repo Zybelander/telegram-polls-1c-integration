@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e52f9bf-645e-4e89-84c5-6234f8655508">
+  <name>УстановкаРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка расписания</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.InputFieldCalendar</picture>
+  </picture>
+  <content>Document.УстановкаРасписанияTEST</content>
+  <content>Document.РАСПИСАНИЕ_Записавшиеся_TEST</content>
+  <content>InformationRegister.ПланировкаРасписанияTEST</content>
+</mdclass:Subsystem>

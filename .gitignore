@@ -1,0 +1,33 @@
+# =============================================
+# .gitignore для 1С:Enterprise Development Tools
+# =============================================
+
+# Служебные файлы и папки EDT
+.metadata/
+DT-INF/
+settings/
+
+# Временные файлы и логи
+*.log
+*.lock
+trace
+telemetry.*
+
+# Бинарные файлы и сборки
+bin/
+out/
+build/
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Резервные копии и временные файлы 1С
+*.cf
+*.cfu
+*.epf
+*.erf
+*.dt
+*.backup
+*.tmp

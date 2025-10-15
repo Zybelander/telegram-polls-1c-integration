@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f77bb454-288b-4df4-adfa-895377dea292">
+  <producedTypes>
+    <objectType typeId="228575ff-a01d-4326-a171-60802d5b64b8" valueTypeId="513acd85-fe53-4cda-8b07-31a82c29b66d"/>
+    <refType typeId="2bdfe456-2fea-47ae-b2bc-1f331e694a7b" valueTypeId="28396bd6-d177-4eb5-b5cc-668fea1f0e23"/>
+    <selectionType typeId="731f4344-e0dc-4fbe-9809-818d75b0681a" valueTypeId="e93fdee8-1f7a-487d-b997-202259363304"/>
+    <listType typeId="38d5e88e-0793-4261-8471-48ebcd1efa50" valueTypeId="00f50d1b-b073-4a39-8373-1f8969034c7a"/>
+    <managerType typeId="427a7e9b-a9f7-4261-b4ac-dd179ee8b3f5" valueTypeId="9255247a-0530-4d63-80b9-588a46b39f66"/>
+  </producedTypes>
+  <name>РазрезДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрез дня</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РазрезДня.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РазрезДня.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

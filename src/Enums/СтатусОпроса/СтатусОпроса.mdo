@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85f312b2-ddc5-42b9-a175-99d41b9cabb5">
+  <producedTypes>
+    <refType typeId="2730c710-6d85-40d9-8eb1-c804f4d49d93" valueTypeId="6d13ff20-52bb-4dbc-b30b-ab85f064098f"/>
+    <listType typeId="34723611-cf2b-4904-a557-1d7777778e14" valueTypeId="51cb1cb9-15ba-436d-9b27-f2a4a3cf18be"/>
+    <managerType typeId="3140a855-6216-42e3-949b-06ec8bd2035d" valueTypeId="f63fa0cb-3bef-412d-80a5-ef44aed9a40b"/>
+  </producedTypes>
+  <name>СтатусОпроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус опроса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8419c8e3-4332-4268-afd0-cbda441d5dfd">
+    <name>ПланируетсяКСозданию</name>
+    <synonym>
+      <key>ru</key>
+      <value>❗️ Планируется к созданию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fee49046-8e31-454a-9600-4cf8dde32bf2">
+    <name>ИдетГолосование</name>
+    <synonym>
+      <key>ru</key>
+      <value>⏳ Идет голосование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0ee4fde-74e3-47b2-9c7a-dad31c245aff">
+    <name>ОпросЗавершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>✅ Опрос завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09dd6b27-a0fd-44ce-9640-912a6082b081">
+    <name>ГотовКВыгрузкеОпроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к выгрузке опроса</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
